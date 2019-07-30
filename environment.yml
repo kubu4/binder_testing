@@ -1,12 +1,5 @@
 name: example-environment
 channels:
-  - conda-forge
+  - bioconda
 dependencies:
-  - python
-  - numpy
-  - pip
-  - pip:
-    - nbgitpuller
-    - sphinx-gallery
-    - pandas
-    - matplotlib
+  - bedtools
